@@ -4,7 +4,7 @@ metadata:
   name: todolist-service
 spec:
   type: NodePort
-  # Each Pod in the Deployment that you created previously has below label. So the Pods in the Deployment will become members of this Service.
+  # Each Pod in the Deployment that you created previously has the below label. So the Pods in the Deployment will become members of this Service.
   selector:
     app: to-do-list
   ports:
